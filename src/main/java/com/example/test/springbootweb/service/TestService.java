@@ -39,7 +39,7 @@ public class TestService {
         } catch (IOException e) {
 
         }
-        return "web3 error";
+        return "web2 svc-"+ Version.VERSION+","+testDao.version()+"--->"+"web3 error";
 
     }
 }
